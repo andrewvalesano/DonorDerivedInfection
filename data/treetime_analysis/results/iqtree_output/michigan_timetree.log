@@ -1,0 +1,313 @@
+IQ-TREE multicore version 2.0.3 for Linux 64-bit built Apr 26 2020
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    gl3030.arc-ts.umich.edu (AVX512, FMA3, 187 GB RAM)
+Command: iqtree -redo -nt 2 -ninit 10 -me 0.05 -bb 1000 -wbtl -czb -m GTR --prefix data/iqtree_output/michigan_timetree -s data/meta_mi_ddi.fasta -o Wuhan/WH01/2019
+Seed:    109605 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon Nov 23 12:27:58 2020
+Kernel:  AVX+FMA - 2 threads (2 CPU cores detected)
+
+Reading alignment file data/meta_mi_ddi.fasta ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+WARNING: 153 sites contain only gaps or ambiguous characters.
+Alignment has 193 sequences with 29903 columns, 1250 distinct patterns
+278 parsimony-informative, 322 singleton sites, 29303 constant sites
+                            Gap/Ambiguity  Composition  p-value
+   1  Wuhan/Hu-1/2019               0.51%    passed     99.97%
+   2  Wuhan/WH01/2019               0.51%    passed     99.97%
+   3  USA/MI-MDHHS-SC22111/2020     3.49%    passed     99.26%
+   4  USA/MI-MDHHS-SC22119/2020     1.23%    passed     99.28%
+   5  USA/MI-MDHHS-SC22122/2020     0.97%    passed     99.98%
+   6  USA/MI-MDHHS-SC22189/2020     0.51%    passed    100.00%
+   7  USA/MI-MDHHS-SC22118/2020     1.60%    passed     99.96%
+   8  USA/MI-MDHHS-SC22126/2020     0.62%    passed     99.99%
+   9  USA/MI-MDHHS-SC22128/2020     0.56%    passed     99.98%
+  10  USA/MI-MDHHS-SC22112/2020     2.65%    passed     98.52%
+  11  USA/MI-MDHHS-SC22136/2020     3.94%    passed     96.87%
+  12  USA/MI-MDHHS-SC22165/2020     1.11%    passed     99.65%
+  13  USA/MI-MDHHS-SC22181/2020     0.59%    passed     99.99%
+  14  USA/MI-MDHHS-SC22171/2020     1.11%    passed     99.55%
+  15  USA/MI-MDHHS-SC22129/2020     0.52%    passed     99.96%
+  16  USA/MI-MDHHS-SC22132/2020     4.50%    passed     96.65%
+  17  USA/MI-MDHHS-SC22146/2020     2.73%    passed     98.04%
+  18  USA/MI-MDHHS-SC22164/2020     1.11%    passed     99.68%
+  19  USA/MI-MDHHS-SC22169/2020     1.11%    passed     99.72%
+  20  USA/MI-MDHHS-SC22153/2020     1.15%    passed     99.55%
+  21  USA/MI-MDHHS-SC22155/2020     1.14%    passed     99.54%
+  22  USA/MI-MDHHS-SC22149/2020     1.60%    passed     99.41%
+  23  USA/MI-MDHHS-SC22154/2020     1.25%    passed     98.92%
+  24  USA/MI-MDHHS-SC22167/2020     1.12%    passed     99.89%
+  25  USA/MI-MDHHS-SC22185/2020     0.71%    passed     99.97%
+  26  USA/MI-MDHHS-SC22180/2020     0.90%    passed     99.85%
+  27  USA/MI-UM-10036281666/2020    0.57%    passed     99.99%
+  28  USA/MI-UM-10036242970/2020    0.57%    passed     99.99%
+  29  USA/MI-UM-10036284170/2020    0.57%    passed     99.99%
+  30  USA/MI-UM-10036287406/2020    0.57%    passed     99.99%
+  31  USA/MI-UM-10036329145/2020    1.30%    passed     99.97%
+  32  USA/MI-UM-10036305857/2020    0.57%    passed     99.95%
+  33  USA/MI-UM-10036296398/2020    0.57%    passed     99.96%
+  34  USA/MI-UM-10036369993/2020    1.30%    passed     99.87%
+  35  USA/MI-UM-10036482555/2020    0.92%    passed     99.98%
+  36  USA/MI-UM-10036474937/2020    0.57%    passed     99.95%
+  37  USA/MI-UM-10036309295/2020    1.42%    passed     99.21%
+  38  USA/MI-UM-10036284225/2020    0.62%    passed     99.98%
+  39  USA/MI-UM-10036396903/2020    2.65%    passed     99.79%
+  40  USA/MI-UM-10036438245/2020    1.52%    passed     99.96%
+  41  USA/MI-UM-10036413655/2020    1.50%    passed     99.65%
+  42  USA/MI-UM-10036454184/2020    2.85%    passed     99.86%
+  43  USA/MI-UM-10036339633/2020    0.59%    passed     99.98%
+  44  USA/MI-UM-10036361683/2020    0.59%    passed     99.99%
+  45  USA/MI-UM-10036386932/2020    0.94%    passed     99.86%
+  46  USA/MI-UM-10036466026/2020    0.57%    passed     99.97%
+  47  USA/MI-UM-10036306472/2020    0.57%    passed     99.89%
+  48  USA/MI-UM-10036347220/2020    1.30%    passed     99.93%
+  49  USA/MI-UM-10036444607/2020    2.19%    passed     99.99%
+  50  USA/MI-UM-10036346883/2020    1.64%    passed     99.60%
+  51  USA/MI-UM-10036307468/2020    0.92%    passed     99.99%
+  52  USA/MI-UM-10036396974/2020    1.30%    passed     99.83%
+  53  USA/MI-UM-10036277128/2020    0.63%    passed     99.91%
+  54  USA/MI-MDHHS-SC22133/2020     4.55%    passed     98.45%
+  55  USA/MI-MDHHS-SC22152/2020     1.52%    passed     99.69%
+  56  USA/MI-MDHHS-SC22157/2020     1.25%    passed     99.59%
+  57  USA/MI-MDHHS-SC22163/2020     1.20%    passed     99.61%
+  58  USA/MI-MDHHS-SC22168/2020     1.11%    passed     99.92%
+  59  USA/MI-MDHHS-SC22187/2020     0.53%    passed     99.95%
+  60  USA/MI-MDHHS-SC22170/2020     1.11%    passed     99.95%
+  61  USA/MI-MDHHS-SC22166/2020     1.11%    passed     99.91%
+  62  USA/MI-MDHHS-SC22134/2020     4.09%    passed     97.43%
+  63  USA/MI-MDHHS-SC22151/2020     1.70%    passed     99.66%
+  64  USA/MI-MDHHS-SC22176/2020     0.55%    passed     99.98%
+  65  USA/MI-MDHHS-SC22177/2020     0.81%    passed     99.95%
+  66  USA/MI-MDHHS-SC22174/2020     1.15%    passed     99.93%
+  67  USA/MI-MDHHS-SC22182/2020     0.54%    passed     99.98%
+  68  USA/MI-MDHHS-SC22193/2020     0.55%    passed     99.98%
+  69  USA/MI-MDHHS-SC22192/2020     0.55%    passed     99.99%
+  70  USA/MI-UM-10036434968/2020    0.92%    passed     99.94%
+  71  USA/MI-UM-10036277659/2020    2.31%    passed     99.97%
+  72  USA/MI-UM-10036396729/2020    0.83%    passed     99.99%
+  73  USA/MI-UM-10036404422/2020    0.57%    passed     99.99%
+  74  USA/MI-UM-10036396949/2020    0.57%    passed     99.99%
+  75  USA/MI-UM-10036386923/2020    0.75%    passed    100.00%
+  76  USA/MI-UM-10036396939/2020    0.67%    passed    100.00%
+  77  USA/MI-UM-10036421549/2020    1.30%    passed     99.99%
+  78  USA/MI-UM-10036396766/2020    0.57%    passed     99.98%
+  79  USA/MI-UM-10036396965/2020    2.61%    passed     99.91%
+  80  USA/MI-UM-10036396723/2020    1.12%    passed     99.81%
+  81  USA/MI-UM-10036250932/2020    0.57%    passed    100.00%
+  82  USA/MI-UM-10036297467/2020    0.57%    passed     99.99%
+  83  USA/MI-UM-10036422360/2020    1.91%    passed     99.99%
+  84  USA/MI-UM-10036424368/2020    0.57%    passed    100.00%
+  85  USA/MI-UM-10036453509/2020    1.90%    passed     99.99%
+  86  USA/MI-UM-10036331190/2020    1.30%    passed     99.99%
+  87  USA/MI-UM-10036381059/2020    0.92%    passed     99.98%
+  88  USA/MI-UM-10036460497/2020    1.30%    passed     99.97%
+  89  USA/MI-UM-10036319590/2020    0.57%    passed     99.99%
+  90  USA/MI-UM-10036400561/2020    0.67%    passed     99.98%
+  91  USA/MI-UM-10036463292/2020    0.84%    passed     99.98%
+  92  USA/MI-UM-10036442334/2020    0.92%    passed     99.98%
+  93  USA/MI-MDHHS-SC22162/2020     1.11%    passed     99.87%
+  94  USA/MI-MDHHS-SC22194/2020     0.52%    passed     99.96%
+  95  USA/MI-MDHHS-SC22186/2020     0.60%    passed     99.97%
+  96  USA/MI-UM-10036381452/2020    1.22%    passed     99.90%
+  97  USA/MI-UM-10036422279/2020    1.30%    passed     99.95%
+  98  USA/MI-UM-10036381483/2020    1.30%    passed     99.97%
+  99  USA/MI-UM-10036394525/2020    0.66%    passed     99.99%
+ 100  USA/MI-UM-10036404849/2020    2.13%    passed     99.79%
+ 101  USA/MI-UM-10036486626/2020    0.67%    passed     99.95%
+ 102  USA/MI-UM-10036437656/2020    0.84%    passed     99.97%
+ 103  USA/MI-UM-10036241991/2020    1.94%    passed     99.68%
+ 104  USA/MI-UM-10036276912/2020    0.57%    passed    100.00%
+ 105  USA/MI-UM-10036306710/2020    1.11%    passed     99.70%
+ 106  USA/MI-UM-10036287712/2020    0.86%    passed     99.96%
+ 107  USA/MI-UM-10036366473/2020    0.57%    passed     99.99%
+ 108  USA/MI-UM-10036332093/2020    3.01%    passed     99.74%
+ 109  USA/MI-MDHHS-SC22190/2020     0.51%    passed    100.00%
+ 110  USA/MI-UM-10036310651/2020    0.70%    passed    100.00%
+ 111  USA/MI-UM-10036484904/2020    2.68%    passed     99.95%
+ 112  USA/MI-UM-10036370482/2020    0.57%    passed     99.99%
+ 113  USA/MI-UM-10036404933/2020    0.92%    passed     99.99%
+ 114  USA/MI-UM-10036483429/2020    0.62%    passed     99.99%
+ 115  USA/MI-UM-10036483559/2020    0.57%    passed     99.98%
+ 116  USA/MI-UM-10036428684/2020    1.60%    passed    100.00%
+ 117  USA/MI-UM-10036475782/2020    0.57%    passed     99.97%
+ 118  USA/MI-UM-10036444936/2020    1.33%    passed     99.98%
+ 119  USA/MI-UM-10036346836/2020    0.80%    passed    100.00%
+ 120  USA/MI-UM-10036391877/2020    0.59%    passed    100.00%
+ 121  USA/MI-UM-10036434093/2020    1.00%    passed     99.99%
+ 122  USA/MI-MDHHS-SC22191/2020     0.52%    passed     99.93%
+ 123  USA/MI-MDHHS-SC22142/2020     2.87%    passed     98.02%
+ 124  USA/MI-MDHHS-SC22144/2020     3.11%    passed     98.84%
+ 125  USA/MI-MDHHS-SC22173/2020     1.13%    passed     99.89%
+ 126  USA/MI-MDHHS-SC22141/2020     3.08%    passed     97.46%
+ 127  USA/MI-MDHHS-SC22188/2020     0.55%    passed     99.98%
+ 128  USA/MI-MDHHS-SC22172/2020     1.10%    passed     99.80%
+ 129  USA/MI-MDHHS-SC22137/2020     4.01%    passed     95.52%
+ 130  USA/MI-MDHHS-SC22175/2020     1.14%    passed     99.94%
+ 131  USA/MI-MDHHS-SC22108/2020     6.58%    passed     86.10%
+ 132  USA/MI-MDHHS-SC22123/2020     1.06%    passed     99.98%
+ 133  USA/MI-MDHHS-SC22148/2020     1.80%    passed     99.76%
+ 134  USA/MI-UM-10036246523/2020    0.57%    passed     99.92%
+ 135  USA/MI-UM-10036371442/2020    1.90%    passed     99.89%
+ 136  USA/MI-UM-10036454655/2020    2.65%    passed     99.92%
+ 137  USA/MI-UM-10036335706/2020    1.43%    passed     99.81%
+ 138  USA/MI-UM-10036310636/2020    2.47%    passed     99.72%
+ 139  USA/MI-UM-10036287420/2020    3.01%    passed     99.69%
+ 140  USA/MI-UM-10036367756/2020    1.32%    passed     99.95%
+ 141  USA/MI-UM-10036415960/2020    0.59%    passed     99.95%
+ 142  USA/MI-UM-10036396778/2020    0.57%    passed     99.93%
+ 143  USA/MI-UM-10036397118/2020    2.19%    passed     99.99%
+ 144  USA/MI-UM-10036421781/2020    1.60%    passed     99.88%
+ 145  USA/MI-UM-10036482489/2020    1.37%    passed     99.84%
+ 146  USA/MI-MDHHS-SC22195/2020     0.68%    passed     99.95%
+ 147  USA/MI-UM-10036434045/2020    2.72%    passed     99.92%
+ 148  USA/MI-UM-10036287673/2020    1.50%    passed     99.54%
+ 149  USA/MI-MDHHS-SC22107/2020     7.05%    passed     97.92%
+ 150  USA/MI-MDHHS-SC22116/2020     1.70%    passed     99.32%
+ 151  recipient_NP                  1.21%    passed     99.92%
+ 152  recipient_trach_asp           5.03%    passed     92.29%
+ 153  donor_BAL_R                   1.30%    passed     99.99%
+ 154  recipient_BAL_R               1.30%    passed     99.99%
+ 155  recipient_BAL_L               1.30%    passed     99.99%
+ 156  surgeon_NP                    1.30%    passed     99.99%
+ 157  USA/MI-UM-10036459813/2020    0.57%    passed    100.00%
+ 158  USA/MI-UM-10036519754/2020    2.87%    passed     99.24%
+ 159  USA/MI-UM-10036496799/2020    0.57%    passed    100.00%
+ 160  USA/MI-UM-10036476828/2020    0.57%    passed     99.98%
+ 161  USA/MI-UM-10036484282/2020    0.57%    passed    100.00%
+ 162  USA/MI-UM-10036494344/2020    2.06%    passed     99.74%
+ 163  USA/MI-UM-10036483226/2020    0.63%    passed     99.99%
+ 164  USA/MI-UM-10036509948/2020    2.44%    passed     99.75%
+ 165  USA/MI-UM-10036486712/2020    0.57%    passed    100.00%
+ 166  USA/MI-UM-10036507339/2020    1.30%    passed     99.99%
+ 167  USA/MI-UM-10036496188/2020    3.01%    passed     99.56%
+ 168  USA/MI-UM-10036524225/2020    1.30%    passed     99.99%
+ 169  USA/MI-UM-10036522216/2020    1.30%    passed     99.99%
+ 170  USA/MI-UM-10036515165/2020    0.57%    passed     99.99%
+ 171  USA/MI-UM-10036516003/2020    1.17%    passed     99.96%
+ 172  USA/MI-UM-10036485871/2020    0.57%    passed     99.99%
+ 173  USA/MI-UM-10036485874/2020    0.57%    passed     99.99%
+ 174  USA/MI-UM-10036462504/2020    0.57%    passed     99.90%
+ 175  USA/MI-UM-10036466389/2020    0.61%    passed     99.97%
+ 176  USA/MI-UM-10036511106/2020    2.79%    passed     98.76%
+ 177  USA/MI-UM-10036516572/2020    0.92%    passed     99.98%
+ 178  USA/MI-UM-10036464027/2020    0.57%    passed     99.99%
+ 179  USA/MI-UM-10036528399/2020    2.20%    passed     99.53%
+ 180  USA/MI-UM-10036461966/2020    2.43%    passed     99.86%
+ 181  USA/MI-UM-10036518489/2020    1.90%    passed    100.00%
+ 182  USA/MI-UM-10036518963/2020    2.95%    passed     99.88%
+ 183  USA/MI-UM-10036515334/2020    0.57%    passed     99.93%
+ 184  USA/MI-UM-10036515267/2020    0.57%    passed     99.93%
+ 185  USA/MI-UM-10036524165/2020    0.57%    passed     99.93%
+ 186  USA/MI-UM-10036515220/2020    0.57%    passed     99.92%
+ 187  USA/MI-UM-10036507377/2020    1.30%    passed     99.98%
+ 188  USA/MI-UM-10036507431/2020    0.57%    passed     99.93%
+ 189  USA/MI-UM-10036524330/2020    1.00%    passed     99.82%
+ 190  USA/MI-UM-10036541136/2020    2.72%    passed    100.00%
+ 191  USA/MI-UM-10036483050/2020    2.08%    passed     99.34%
+ 192  USA/MI-UM-10036524127/2020    2.44%    passed     99.54%
+ 193  USA/MI-UM-10036496278/2020    2.26%    passed     99.97%
+****  TOTAL                         1.38%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: USA/MI-UM-10036242970/2020 is identical to USA/MI-UM-10036281666/2020 but kept for subsequent analysis
+NOTE: USA/MI-UM-10036524225/2020 is identical to USA/MI-UM-10036421549/2020 but kept for subsequent analysis
+NOTE: recipient_BAL_R is identical to donor_BAL_R but kept for subsequent analysis
+NOTE: USA/MI-UM-10036485874/2020 is identical to USA/MI-UM-10036485871/2020 but kept for subsequent analysis
+NOTE: 3 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: USA/MI-UM-10036284170/2020 (identical to USA/MI-UM-10036281666/2020) is ignored but added at the end
+NOTE: USA/MI-UM-10036522216/2020 (identical to USA/MI-UM-10036421549/2020) is ignored but added at the end
+NOTE: recipient_BAL_L (identical to donor_BAL_R) is ignored but added at the end
+Alignment was printed to data/iqtree_output/michigan_timetree.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to data/iqtree_output/michigan_timetree.uniqueseq.phy
+Creating fast initial parsimony tree by random order stepwise addition...
+0.224 seconds, parsimony score: 658 (based on 600 sites)
+Generating 1000 samples for ultrafast bootstrap (seed: 109605)...
+
+NOTE: 12 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.500)
+1. Initial log-likelihood: -47371.043
+2. Current log-likelihood: -47142.130
+3. Current log-likelihood: -46947.812
+Optimal log-likelihood: -46947.799
+Rate parameters:  A-C: 0.19552  A-G: 0.90710  A-T: 0.08727  C-G: 0.18975  C-T: 3.56351  G-T: 1.00000
+Base frequencies:  A: 0.299  C: 0.183  G: 0.197  T: 0.321
+Parameters optimization took 3 rounds (0.744 sec)
+Computing ML distances based on estimated model parameters... 0.266 sec
+Computing BIONJ tree...
+0.016 seconds
+Log-likelihood of BIONJ tree: -46955.967
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 8 parsimony trees... 0.826 second
+Computing log-likelihood of 8 initial trees ... 0.127 seconds
+Current best score: -46937.821
+
+Do NNI search on 10 best initial trees
+Estimate model parameters (epsilon = 0.500)
+BETTER TREE FOUND at iteration 1: -46937.737
+Iteration 10 / LogL: -47011.225 / Time: 0h:0m:11s
+Finish initializing candidate tree set (20)
+Current best tree score: -46937.737 / CPU time: 9.919
+Number of iterations: 10
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 20 / LogL: -46947.216 / Time: 0h:0m:15s
+Iteration 30 / LogL: -46941.266 / Time: 0h:0m:20s (0h:0m:48s left)
+Iteration 40 / LogL: -46947.906 / Time: 0h:0m:24s (0h:0m:38s left)
+Iteration 50 / LogL: -46947.747 / Time: 0h:0m:30s (0h:0m:31s left)
+Log-likelihood cutoff on original alignment: -47011.381
+UFBoot trees printed to data/iqtree_output/michigan_timetree.ufboot
+Iteration 60 / LogL: -46941.023 / Time: 0h:0m:36s (0h:0m:25s left)
+Iteration 70 / LogL: -46939.631 / Time: 0h:0m:41s (0h:0m:18s left)
+Iteration 80 / LogL: -46999.088 / Time: 0h:0m:45s (0h:0m:12s left)
+Iteration 90 / LogL: -46948.685 / Time: 0h:0m:50s (0h:0m:6s left)
+Iteration 100 / LogL: -46964.247 / Time: 0h:0m:53s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -47011.381
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.999
+UFBoot trees printed to data/iqtree_output/michigan_timetree.ufboot
+TREE SEARCH COMPLETED AFTER 102 ITERATIONS / Time: 0h:0m:56s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.050)
+1. Initial log-likelihood: -46937.737
+Optimal log-likelihood: -46937.736
+Rate parameters:  A-C: 0.19581  A-G: 0.90668  A-T: 0.08749  C-G: 0.19184  C-T: 3.56329  G-T: 1.00000
+Base frequencies:  A: 0.299  C: 0.183  G: 0.197  T: 0.321
+Parameters optimization took 1 rounds (0.081 sec)
+BEST SCORE FOUND : -46937.736
+Creating bootstrap support values...
+Split supports printed to NEXUS file data/iqtree_output/michigan_timetree.splits.nex
+Collapsing near-zero internal branches... 99 collapsed
+Total tree length: 0.022
+
+Total number of iterations: 102
+CPU time used for tree search: 101.466 sec (0h:1m:41s)
+Wall-clock time used for tree search: 54.857 sec (0h:0m:54s)
+Total CPU time used: 104.562 sec (0h:1m:44s)
+Total wall-clock time used: 56.921 sec (0h:0m:56s)
+UFBoot trees printed to data/iqtree_output/michigan_timetree.ufboot
+
+Computing bootstrap consensus tree...
+Reading input file data/iqtree_output/michigan_timetree.splits.nex...
+190 taxa and 1804 splits.
+Consensus tree written to data/iqtree_output/michigan_timetree.contree
+Reading input trees file data/iqtree_output/michigan_timetree.contree
+Log-likelihood of consensus tree: -46943.382
+
+Analysis results written to: 
+  IQ-TREE report:                data/iqtree_output/michigan_timetree.iqtree
+  Maximum-likelihood tree:       data/iqtree_output/michigan_timetree.treefile
+  Likelihood distances:          data/iqtree_output/michigan_timetree.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          data/iqtree_output/michigan_timetree.splits.nex
+  Consensus tree:                data/iqtree_output/michigan_timetree.contree
+  UFBoot trees:                  data/iqtree_output/michigan_timetree.ufboot
+  Screen log file:               data/iqtree_output/michigan_timetree.log
+
+Date and Time: Mon Nov 23 12:28:57 2020

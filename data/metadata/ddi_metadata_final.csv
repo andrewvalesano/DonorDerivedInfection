@@ -1,0 +1,7 @@
+﻿sample_type,individual,ID
+NP,recipient,recipient_NP
+BAL_Rt,recipient,recipient_BAL_R
+BAL_Rt,donor,donor_BAL_R
+Trach_Asp,recipient,recipient_trach_asp
+BAL_Lt,recipient,recipient_BAL_L
+NP,surgeon,surgeon_NP
